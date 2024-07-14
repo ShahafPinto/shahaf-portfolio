@@ -147,10 +147,10 @@ export const BentoGridItem = ({
                     animationData,
                     rendererSettings: {
                       preserveAspectRatio: "xMidYMid slice",
-                    }
+                    },
                   }}
-                  height= {200}
-                  width= {400}
+                  height={200}
+                  width={400}
                 />
               </div>
               <MagicButton
