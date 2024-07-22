@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Posts from "@/components/Posts";
 import Projects from "@/components/Projects";
@@ -15,6 +16,7 @@ export default function Home() {
       <Grid />
       <Projects />
       <Posts />
+      <Footer />
     </div>
    </main>
   );
