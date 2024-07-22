@@ -1,4 +1,5 @@
 import Grid from "@/components/Grid";
+import Posts from "@/components/Posts";
 import Projects from "@/components/Projects";
 import Welcome from "@/components/Welcome";
 import { FloatingNav } from "@/components/ui/FloatingNav";
@@ -13,6 +14,7 @@ export default function Home() {
       <Welcome />
       <Grid />
       <Projects />
+      <Posts />
     </div>
    </main>
   );
